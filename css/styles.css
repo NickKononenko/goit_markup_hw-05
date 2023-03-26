@@ -120,23 +120,11 @@ img {
   padding: 24px 0;
 }
 
-.nav-studio:active {
-  color: #4d5ae5;
+.link.current {
+  color: var(--text-color-ocean);
 }
 
-.nav-studio::after {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--text-color-ocean);
-  border-radius: 2px;
-}
-
-.nav-studio:active:after {
+.current::after {
   position: absolute;
   bottom: 0px;
   left: 0px;
